@@ -3,6 +3,6 @@
 
     <string name="app_name">GeoMan</string>
     <string name="action_settings">Settings</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="intro">Pacman app! Host or Guest?</string>
 
 </resources>
