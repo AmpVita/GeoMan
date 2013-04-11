@@ -1,6 +1,6 @@
 package com.ampvita.geoman.client;
 
-import com.ampvita.geoman.R;
+import com.ampvita.geoman.client.R;
 
 import android.os.Bundle;
 import android.app.Activity;

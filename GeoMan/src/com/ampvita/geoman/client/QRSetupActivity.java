@@ -1,6 +1,6 @@
 package com.ampvita.geoman.client;
 
-import com.ampvita.geoman.R;
+import com.ampvita.geoman.client.R;
 import com.google.zxing.integration.android.IntentIntegrator;
 import com.google.zxing.integration.android.IntentResult;
 
