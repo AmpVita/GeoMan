@@ -1,4 +1,4 @@
-package com.ampvita.geoman;
+package com.ampvita.geoman.client;
 
 /*
  * Parameters:
@@ -13,12 +13,12 @@ package com.ampvita.geoman;
 
 public class GameGrid {
 	public int sizeX;
-	public int sizeY;
+	public int sizeY;/*
 	private Point[] pacMen;
 	private Point[] ghosts;
 	private Point[] walls;
 	private Point[] powerPellets;
 	private Point[] normalPellets;
 	
-	
+	*/
 }

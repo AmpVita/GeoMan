@@ -1,4 +1,4 @@
-package com.ampvita.geoman;
+package com.ampvita.geoman.client;
 
 public class Point {
 	double xCoord;

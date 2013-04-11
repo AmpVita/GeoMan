@@ -1,4 +1,6 @@
-package com.ampvita.geoman;
+package com.ampvita.geoman.client;
+
+import com.ampvita.geoman.R;
 
 import android.os.Bundle;
 import android.app.Activity;
@@ -14,21 +16,19 @@ public class GeoManActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_geo_man);
 
-        final Intent host = new Intent(this, HostQR.class);
+        final Intent qr = new Intent(this, QRSetupActivity.class);
         final Button hostButton = (Button) findViewById(R.id.host);
         hostButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-            	//use putExtra for data
-            	startActivity(host);
+            	qr.putExtra("isHost", true);
+            	startActivity(qr);
             }
         });
         
-        final Intent guest = new Intent(this, GuestQR.class);
         final Button guestButton = (Button) findViewById(R.id.guest);
         guestButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-            	//use putExtra for data
-            	startActivity(guest);
+            	startActivity(qr);
             }
         });
     }
